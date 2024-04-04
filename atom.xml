@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>原神</title>
   
   
   <link href="https://yjcys.github.io/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>https://yjcys.github.io/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>Jia Qi Ma</name>
     
   </author>
   
