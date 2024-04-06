@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>csw</title>
+      <title>R-Plot</title>
       <link href="/2024/04/04/csw/"/>
       <url>/2024/04/04/csw/</url>
       
-        <content type="html"><![CDATA[<p> 崔绍武爱玩王者农药</p>]]></content>
+        <content type="html"><![CDATA[<pre><code class="lang-R">##ggcorrplot相关性图可视化library(ggcorrplot)library(ggtext)library(RColorBrewer)library(tidyverse)#将变量的首字母转为大写（主要为了看起来舒服一点，没什么用）names(mtcars) = str_to_title(names(mtcars))#计算相关性矩阵corr_data &lt;- round(cor(mtcars), 1)#计算对应的p值p_mat &lt;- cor_pmat(mtcars)</code></pre>]]></content>
       
       
       

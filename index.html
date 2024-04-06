@@ -174,7 +174,7 @@
 
 <div class="post">
     <a href="/2024/04/04/csw/">
-        <h2 class="post-title">csw</h2>
+        <h2 class="post-title">R-Plot</h2>
     </a>
     <div class="category-and-date">
         
@@ -190,7 +190,12 @@
     <div class="description">
         <div class="content" v-pre>
             
-            <p> 崔绍武爱玩王者农药</p>
+            <pre><code class="lang-R">##ggcorrplot相关性图可视化library(ggcorrplot)library(ggtext)library(RColorBrewer)library(tidyverse)
+
+#将变量的首字母转为大写（主要为了看起来舒服一点，没什么用）names(mtcars) = str_to_title(names(mtcars))
+#计算相关性矩阵corr_data &lt;- round(cor(mtcars), 1)
+#计算对应的p值p_mat &lt;- cor_pmat(mtcars)
+</code></pre>
 
             
         </div>

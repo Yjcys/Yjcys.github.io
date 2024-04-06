@@ -6,7 +6,7 @@
   <link href="https://yjcys.github.io/atom.xml" rel="self"/>
   
   <link href="https://yjcys.github.io/"/>
-  <updated>2024-04-04T14:20:07.413Z</updated>
+  <updated>2024-04-05T07:10:57.750Z</updated>
   <id>https://yjcys.github.io/</id>
   
   <author>
@@ -17,19 +17,20 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>csw</title>
+    <title>R-Plot</title>
     <link href="https://yjcys.github.io/2024/04/04/csw/"/>
     <id>https://yjcys.github.io/2024/04/04/csw/</id>
     <published>2024-04-04T14:17:07.000Z</published>
-    <updated>2024-04-04T14:20:07.413Z</updated>
+    <updated>2024-04-05T07:10:57.750Z</updated>
     
-    <content type="html"><![CDATA[<p> 崔绍武爱玩王者农药</p>]]></content>
+    <content type="html"><![CDATA[<pre><code class="lang-R">##ggcorrplot相关性图可视化library(ggcorrplot)library(ggtext)library(RColorBrewer)library(tidyverse)#将变量的首字母转为大写（主要为了看起来舒服一点，没什么用）names(mtcars) = str_to_title(names(mtcars))#计算相关性矩阵corr_data &lt;- round(cor(mtcars), 1)#计算对应的p值p_mat &lt;- cor_pmat(mtcars)</code></pre>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt; 崔绍武爱玩王者农药&lt;/p&gt;
-</summary>
+    <summary type="html">&lt;pre&gt;&lt;code class=&quot;lang-R&quot;&gt;##ggcorrplot相关性图可视化library(ggcorrplot)library(ggtext)library(RColorBrewer)library(tidyverse)
+
+#将变量的首字母转为大写（主要为了看起来</summary>
       
     
     

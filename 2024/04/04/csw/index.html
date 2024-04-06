@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>csw | Yuwan&#39;s Blog</title>
+    <title>R-Plot | Yuwan&#39;s Blog</title>
     <meta name="author" content="Jia Qi Ma" />
     <meta name="description" content="我们喜欢你" />
     <meta name="keywords" content="" />
@@ -156,7 +156,7 @@
         <div id="main" :class="loading ? 'into-enter-from': 'into-enter-active'">
             <div class="article">
     <div>
-        <h1>csw</h1>
+        <h1>R-Plot</h1>
     </div>
     <div class="info">
         <span class="date">
@@ -170,7 +170,12 @@
     </div>
     
     <div class="content" v-pre>
-        <p> 崔绍武爱玩王者农药</p>
+        <pre><code class="lang-R">##ggcorrplot相关性图可视化library(ggcorrplot)library(ggtext)library(RColorBrewer)library(tidyverse)
+
+#将变量的首字母转为大写（主要为了看起来舒服一点，没什么用）names(mtcars) = str_to_title(names(mtcars))
+#计算相关性矩阵corr_data &lt;- round(cor(mtcars), 1)
+#计算对应的p值p_mat &lt;- cor_pmat(mtcars)
+</code></pre>
 
     </div>
     
